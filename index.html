@@ -335,41 +335,54 @@
                     <p>
                     Los mensajes HTTP, son en texto plano lo que lo hace más legible y fácil de depurar. Esto tiene el inconveniente de hacer los mensajes más largos.
                     Los mensajes tienen la siguiente estructura:
-                        <ol>*Línea inicial (termina con retorno de carro y un salto de línea)</ol>
-                        <ol>*Para las peticiones: la acción requerida por el servidor (método de petición) seguido de la URL del recurso y la versión HTTP que soporta el cliente.</ol>
-                        <ol>*Para respuestas: La versión del HTTP usado seguido del código de respuesta (que indica que ha pasado con la petición seguido de la URL del recurso) y de la frase asociada a dicho retorno.</ol> 
-                        <ol>*Las cabeceras del mensaje que terminan con una línea en blanco. Son metadatos. Estas cabeceras le dan gran flexibilidad al protocolo.</ol>
-                        <ol>*Cuerpo del mensaje. Es opcional. Su presencia depende de la línea anterior del mensaje y del tipo de recurso al que hace referencia la URL. Típicamente tiene los datos que se intercambian cliente y servidor. Por ejemplo para una petición podría contener ciertos datos que se quieren enviar al servidor para que los procese.­ Para una respuesta podría incluir los datos que el cliente ha solicitado.</ol>
+                        <ol>- Línea inicial (termina con retorno de carro y un salto de línea)</ol>
+                        <ol>- Para las peticiones: la acción requerida por el servidor (método de petición) seguido de la URL del recurso y la versión HTTP que soporta el cliente.</ol>
+                        <ol>- Para respuestas: La versión del HTTP usado seguido del código de respuesta (que indica que ha pasado con la petición seguido de la URL del recurso) y de la frase asociada a dicho retorno.</ol> 
+                        <ol>- Las cabeceras del mensaje que terminan con una línea en blanco. Son metadatos. Estas cabeceras le dan gran flexibilidad al protocolo.</ol>
+                        <ol>- Cuerpo del mensaje. Es opcional. Su presencia depende de la línea anterior del mensaje y del tipo de recurso al que hace referencia la URL. Típicamente tiene los datos que se intercambian cliente y servidor. Por ejemplo para una petición podría contener ciertos datos que se quieren enviar al servidor para que los procese.­ Para una respuesta podría incluir los datos que el cliente ha solicitado.</ol>
                     </p>
                     <a href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto">Fuente</a>
                     <a href="https://developer.mozilla.org/es/docs/Web/HTTP/Messages">Enlace de interés</a>
                 </li>
             </div>
-            <div class="#">
-                <h3></h3>
+            <div class="#estructuraurl">
+                <h3>Estructura de URL</h3>
                 <li>
-                    <p>
+                    <p>Un HTTP URL combina en una dirección simple los cuatro elementos básicos de información necesarios para recuperar un recurso desde cualquier parte en Internet:
+                            <ul>• El protocolo que se usa para comunicar o enviar datos. </ul>
+                            <ul>• El anfitrión (servidor o host) con el que se comunica.</ul>
+                            <ul>• El puerto de red en el servidor para conectarse.</ul>
+                            <ul>• La ruta al recurso en el servidor (por ejemplo, su nombre de archivo).</ul>
+                        <br>
+                        Un URL típico puede ser del tipo:
+                        http://es.wikipedia.org:80/wiki/Special:Search?search=tren&go=Go
+                        <br>
+                        Donde:
+                        <br>
+                        <ul>• http es el protocolo.</ul>
+                        <ul>• es.wikipedia.org es el anfitrión.</ul>
+                        <ul>• 80 es el número de puerto de red en el servidor (siendo 80 el valor por defecto para el protocolo HTTP, esta porción puede ser omitida por completo).</ul>
+                        <ul>• /wiki/Special:Search es la ruta de recurso.</ul>
+                        <ul>• ?search=tren&go=Go es la cadena de búsqueda</ul>                       
                     </p>
-                    <a href="">Fuente</a>
-                    <a href="">Enlace de interés</a>
+                    <a href="https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme#Esquema_URL">Fuente</a>
                 </li>
             </div>
-            <div class="#">
-                <h3></h3>
+            <div class="#etiquetameta">
+                <h3>Etiqueta meta:</h3>
                 <li>
-                    <p>
+                    <p>Las metaetiquetas, etiquetas meta o elementos meta (también conocidas por su nombre en inglés, metatags o meta tags) son etiquetas HTML que se incorporan en el encabezado de una página web y que resultan invisibles para un visitante normal, pero de gran utilidad para navegadores u otros programas que puedan valerse de esta información.
                     </p>
-                    <a href="">Fuente</a>
-                    <a href="">Enlace de interés</a>
+                    <a href="https://es.wikipedia.org/wiki/Etiqueta_meta">Fuente</a>
                 </li>
             </div>
-            <div class="#">
-                <h3></h3>
+            <div class="#expresiones">
+                <h3>Expresiones: </h3>
                 <li>
-                    <p>
+                    <p>Una expresión regular,​ es una secuencia de caracteres que conforma un patrón de búsqueda. También son conocidas como regex o regexp,​ por su contracción de las palabras inglesas regular expression. Son principalmente utilizadas para la búsqueda de patrones de cadenas de caracteres u operaciones de sustituciones.
                     </p>
-                    <a href="">Fuente</a>
-                    <a href="">Enlace de interés</a>
+                    <a href="https://es.wikipedia.org/wiki/Expresi%C3%B3n_regular">Fuente</a>
+                    <a href="https://desarrolloweb.com/manuales/expresiones-regulares.html">Enlace de interés</a>
                 </li>
             </div>            
         </ul>
@@ -378,13 +391,13 @@
     <div class="set">
         <h3 class="letra">F</h3>
         <ul class="palabra">
-            <div class="#">
-                <h3></h3>
+            <div class="#factory">
+                <h3>Factory: </h3>
                 <li>
                     <p>
-                    </p>
-                    <a href="">Fuente</a>
-                    <a href="">Enlace de interés</a>
+                    </p>El patrón de diseño Factory Method consiste en utilizar una clase constructora (al estilo del Abstract Factory) abstracta con unos cuantos métodos definidos y otro(s) abstracto(s): el dedicado a la construcción de objetos de un subtipo de un tipo determinado. Es una simplificación del Abstract Factory, en la que la clase abstracta tiene métodos concretos que usan algunos de los abstractos; según usemos una u otra hija de esta clase abstracta, tendremos uno u otro comportamiento.</p>
+                    <a href="https://es.wikipedia.org/wiki/Factory_Method_(patr%C3%B3n_de_dise%C3%B1o)">Fuente</a>
+                    <a href="https://docs.microsoft.com/es-es/previous-versions/bb972258(v=msdn.10)?redirectedfrom=MSDN">Enlace de interés</a>
                 </li>
             </div>
         </ul>
@@ -402,30 +415,53 @@
                     <a href="">Enlace de interés</a>
                 </li>
             </div>
-            <div class="#">
-                <h3></h3>
+            <div class="#get">
+                <h3>GET: </h3>
                 <li>
-                    <p>
+                    <p>Contiene todas las variables que se envían a través del método HTTP GET, se referencian a través del Array unidimensional $_GET['variable']. Esta variable contiene el dato enviado por GET asociado a tal variable, en caso de que exista.
                     </p>
-                    <a href="">Fuente</a>
-                    <a href="">Enlace de interés</a>
+                    <a href="https://es.wikipedia.org/wiki/Servidor_web#M%C3%A9todo_GET">Fuente</a>
+                    <a href="http://www.uterra.com/codigo_php/codigo_php.php?ref=el_uso_del_metodo_get">Enlace de interés</a>
                 </li>
             </div>
+            <div class="#git">
+                    <h3>GIT: </h3>
+                    <li>
+                        <p>Git (pronunciado "guit"​) es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos.
+                        </p>
+                        <a href="https://es.wikipedia.org/wiki/Git">Fuente</a>
+                        <a href="https://git-scm.com/">Enlace de interés</a>
+                    </li>
+                </div>            
         </ul>
     </div>
 
     <div class="set">
         <h3 class="letra">H</h3>
         <ul class="palabra">
-            <div class="#">
-                <h3></h3>
+            <div class="#haskell">
+                <h3>HASKELL:</h3>
                 <li>
-                    <p>
+                    <p>Haskell (pronunciado /hæskəl/) es un lenguaje de programación estandarizado multi-propósito, funcionalmente puro, con evaluación no estricta y memorizada, y fuerte tipificación estática. Su nombre se debe al lógico estadounidense Haskell Curry, debido a su aportación al cálculo lambda, el cual tiene gran influencia en el lenguaje. En Haskell, "una función es un ciudadano de primera clase" del lenguaje de programación. Como lenguaje de programación funcional, el constructor de controles primario es la función. El lenguaje tiene sus orígenes en las observaciones de Haskell Curry y sus descendientes intelectuales.
                     </p>
-                    <a href="">Fuente</a>
-                    <a href="">Enlace de interés</a>
+                    <a href="https://es.wikipedia.org/wiki/Haskell">Fuente</a>
+                    <a href="https://www.haskell.org/">Enlace de interés</a>
                 </li>
             </div>
+            <div class="#httpstatuscode">
+                <h3>HTTP Status Code:</h3>
+                <li>
+                    <p>
+                        <ul>- Códigos de estado 1XX: Informan al navegador de algunas acciones que se van a realizar.</ul>
+                        <ul>- Códigos de estado 2XX: Indican que la petición del navegador se ha recibido, procesado y respondido correctamente.</ul>
+                        <ul>- Códigos de estado 3XX: Indi- can que el navegador debe realizar alguna a- cción adicional para que la petición se complete (como por ejemplo redirigirse a otra página).</ul>
+                        <ul>- Códigos de estado 4XX: Indica- n que se ha producido un error cuyo responsab- le es el navegador.</ul>
+                        <ul>- Códigos de estado 5XX: Indican - que se ha producido un error cuyo responsable e- s el servidor.</ul> 
+                    </p>
+                    <a href="https://uniwebsidad.com/tutoriales/los-codigos-de-estado-de-http?from=librosweb">Fuente</a>
+                    <a href="https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml">Enlace de interés</a>
+                </li>
+            </div>            
         </ul>
     </div>
 
