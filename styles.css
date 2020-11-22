@@ -43,6 +43,8 @@ div.set
 {
     display: inline-block;
     width: 100%;
+    text-align: justify;
+    text-justify: inter-word;
     -webkit-column-break-inside: avoid;
     -moz-column-break-inside: avoid;
     -o-column-break-inside: avoid;
@@ -75,6 +77,7 @@ a:hover
 {
     color: #2e4159;
 }
+
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 32px;
