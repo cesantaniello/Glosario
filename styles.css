@@ -1,3 +1,4 @@
+/*
 div.lexico
 {
     -webkit-column-count: 3;
@@ -50,13 +51,13 @@ div.set
     -o-column-break-inside: avoid;
     -ms-column-break-inside: avoid;
 }
-
+*/
 h3.letra
 {
     color: #748094;
     text-align: center;
 }
-
+/*
 ul
 {
     list-style-type: none;
@@ -67,12 +68,11 @@ ul li
 {
     margin: 3px 0;
 }
-
+*/
 a, a:visited, seccion
 {
     color: #6380a6;
 }
-
 
 a:hover
 {
@@ -84,9 +84,9 @@ h1 {
   font-size: 32px;
   font-weight: bold;
   text-align: center;
-  color: grey;
+  color:white;
 }
-
+/*
 .wrapper{
 	width:auto;
   margin: 10px auto;
@@ -95,9 +95,8 @@ h1 {
 	background: #fff;
 	border-radius: 15px;
 }
-
 .titulo{
-	width:auto;
+  width:auto;
   margin: 25px;
   padding: 25px;
 }
@@ -106,3 +105,4 @@ p.seccion {
   margin: 0px;
   font-weight: bold;
 }
+*/
